@@ -1,0 +1,288 @@
+.App {
+  text-align: center;
+}
+
+ /* .video {
+ height:auto;
+  width: 100%;
+}  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-l {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  flex:1
+}
+.vide{
+ 
+   right: 0; bottom: 100;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+
+    background-size: cover;
+     margin-top: -80px; 
+
+}
+
+
+/* .wrapper         {width:100%;height:90%;margin:0 auto;}
+  .h_iframe        {position:relative;}
+  .h_iframe .ratio {display:block;width:100%;height:auto;}
+  .h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;} */
+  img.bg {
+    /* Set rules to fill background */
+    /* min-height: 100%;
+    min-width: 1024px; */
+    
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  /* @media screen and (max-width: 1024px){
+    img.bg {
+      left: 50%;
+      margin-left: -512px; }
+  }
+   */
+  /* iframe{
+    height: 100vh;
+    width: 100%;
+  position: fixed; right: 0; bottom: 100;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-position: 50% 80%;
+    background-size: cover;
+     margin-top: -80px; 
+  } */
+
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+
+  /* .zone1DesktopVideo {
+    position: absolute;
+    top: 1.5%;
+    left: 53.5%;;
+    height: 100%;
+    width: 30%;
+   
+    color: white;
+   
+  } */
+
+
+  .background {
+    background-image: url("./image/back.jpg");
+    background-size:cover;
+
+
+    background: cover;
+    height: 100vh;
+    /* margin-top: -140px; */
+ }
+ .backgroundLogin {
+  background-image: url("./image/login-back.jpg");
+  background-size:cover;
+
+
+  background: cover;
+  height: 100vh;
+  /* margin-top: -140px; */
+}
+.backgroundTest {
+  background-image: url("./image/data.jpeg");
+  background-size:cover;
+
+
+ 
+  height: 100vh;
+  /* margin-top: -140px; */
+}
+.top30{
+  position: absolute;
+  top: 47%;
+}
+
+.top50{
+  position: absolute;
+  top: 65%;
+}
+
+.top30mac{
+  position: absolute;
+  top: 42%;
+}
+
+.top50mac{
+  position: absolute;
+  top: 56%;
+}
+ div>.w-12:hover {
+  background: black;
+  opacity: 0.5;
+  color:white;
+  border: 1px solid #adadad;
+}
+div>.w-15:hover {
+  background: black;
+  opacity: 0.5;
+  color:white;
+  border: 1px solid #adadad;
+}
+
+/* 
+*{
+  overflow-y: hidden;
+} */
+
+.borderZero
+{
+  border: 0px;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hoverName:hover{
+color: white;
+background-color: black;
+opacity: 0.7;
+}
+
+.transparent{
+  color: transparent;
+}
+ .f1{
+     position: absolute;
+     top: 62%;
+     left: 10%;
+      
+  
+ }
+
+ .dropdown {
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+
+.api{
+  height:110vh; 
+  background-image: url("../src/image/api.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: fixed; 
+  width: 100%; 
+     height: 100%; 
+   
+ left: 0px; 
+    top: 0px;  
+}
+.scoll {
+  overflow: auto;
+  max-width: 800px;
+  max-height: 600px;
+}
+
+
+
+.box{
+  
+  background:linear-gradient(#202F3D,transparent);
+  background-color:#0D0E13 /*this your primary color*/
+}
